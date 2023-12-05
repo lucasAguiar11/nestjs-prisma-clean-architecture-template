@@ -1,5 +1,5 @@
+import { CreateUserDTO } from 'src/application/dtos/user/create-user.dto';
 import { UserEntity } from 'src/domain/entities';
-import { CreateUserDTO } from '../dtos/user/create-user.dto';
 export class CreateUserMapper {
   private constructor() {
     throw new Error(

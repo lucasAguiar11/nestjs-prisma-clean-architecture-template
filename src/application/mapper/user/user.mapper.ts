@@ -1,5 +1,5 @@
+import { UserDTO } from 'src/application/dtos/user/user.dto';
 import { UserEntity } from 'src/domain/entities';
-import { UserDTO } from '../dtos/user/user.dto';
 export class UserMapper {
   private constructor() {
     throw new Error(

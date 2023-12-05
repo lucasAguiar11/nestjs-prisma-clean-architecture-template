@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { UseCase } from '../use-case.interface';
 import { IUserRepository } from 'src/domain/repositories/user-repository.interface';
 import { UserDTO } from 'src/application/dtos/user/user.dto';
-import { UserMapper } from 'src/application/mapper/user.mapper';
+import { UserMapper } from 'src/application/mapper/user/user.mapper';
 
 @Injectable()
 export class ListUserUseCase implements UseCase<void, UserDTO[]> {
