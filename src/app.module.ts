@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { PersistenceModule } from './Infrastructure/persistence/persistence.module';
-import { PresentationModule } from './Infrastructure/presentation/presentation.module';
+import { PersistenceModule } from '@/infrastructure/persistence/persistence.module';
+import { PresentationModule } from '@/infrastructure/presentation/presentation.module';
 
 @Module({
   imports: [

@@ -1,8 +1,8 @@
+import { UserEntity } from '@/domain/entities';
+import { IUserRepository } from '@/domain/repositories/user-repository.interface';
 import { Injectable } from '@nestjs/common';
-import { PrismaService } from '../prisma.service';
-import { UserEntity } from 'src/domain/entities';
-import { PrismaUserMapper } from '../mappers/prisma-user-mapper';
-import { IUserRepository } from 'src/domain/repositories/user-repository.interface';
+import { PrismaService } from '@/infrastructure/persistence//prisma/prisma.service';
+import { PrismaUserMapper } from '@/infrastructure/persistence/prisma/mappers/prisma-user-mapper';
 
 @Injectable()
 export class PrismaUsersRepository implements IUserRepository {

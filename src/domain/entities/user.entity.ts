@@ -1,4 +1,4 @@
-import { IEntity } from '../base/entity.interface';
+import { IEntity } from '@/domain/base/entity.interface';
 
 export interface UserProps {
   name: string;

@@ -1,4 +1,4 @@
-import { UserEntity } from '../entities';
+import { UserEntity } from '@/domain/entities';
 
 export abstract class IUserRepository {
   abstract insert(todo: UserEntity): Promise<void>;

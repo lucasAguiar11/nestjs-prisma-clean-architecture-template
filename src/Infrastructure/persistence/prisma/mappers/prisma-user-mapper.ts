@@ -1,5 +1,5 @@
+import { UserEntity } from '@/domain/entities';
 import { User as PrismaUser } from '@prisma/client';
-import { UserEntity } from 'src/domain/entities';
 export class PrismaUserMapper {
   private constructor() {
     throw new Error(
